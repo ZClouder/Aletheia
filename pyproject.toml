@@ -2,6 +2,7 @@
 name = "aletheia"
 version = "0.1.0"
 description = "AI application evaluation and optimization loop — Python implementation"
+license = { file = "LICENSE" }
 requires-python = ">=3.11"
 dependencies = ["openai>=1.99", "pydantic>=2.11", "pyyaml>=6.0", "rich>=14.0"]
 [dependency-groups]
