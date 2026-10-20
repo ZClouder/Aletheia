@@ -1,0 +1,22 @@
+llm:
+  base_url: http://localhost:11434/v1
+  api_key: ollama
+  model: qwen2.5
+  timeout: 120
+judge:
+  model: qwen2.5
+  temperature: 0
+  top_logprobs: 5
+data:
+  traces: data/traces.jsonl
+  evaluation_set: data/eval_set.json
+output:
+  directory: output
+thresholds:
+  pass_score: 0.70
+runtime:
+  max_concurrency: 4
+observability:
+  enabled: true
+  color: auto
+  verbose: false

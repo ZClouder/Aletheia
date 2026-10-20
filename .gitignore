@@ -1,0 +1,61 @@
+# Python bytecode and native extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Test, lint, type-check and coverage caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Logs and temporary runtime files
+*.log
+logs/
+*.tmp
+*.bak
+tmp/
+
+# Generated evaluation and optimization artifacts
+output/
+
+# Session-local planning and agent context
+task_plan.md
+findings.md
+progress.md
+CONTEXT.md
